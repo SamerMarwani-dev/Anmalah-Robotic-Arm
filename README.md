@@ -52,7 +52,7 @@ When multiple MG996R servos initiate motion simultaneously under the torque load
 ###  The Analytical Solution (Data-Driven Isolation)
 To diagnose the root cause, we cross-referenced our physical system behavior against the official **Texas Instruments LM2596 Simple Switcher Datasheet**:
 
-![LM2596 Datasheet Operational Specifications](lm2596_datasheet.png)
+![LM2596 Datasheet Operational Specifications](LM2596_datasheet.jpeg)
 
 The documentation states a strict limit of **3-A Continuous Output Load Current**. Our simultaneous load spiked past 4.5A, meaning the regulator was shifting into internal current-limit and thermal shutdown protection.
 
