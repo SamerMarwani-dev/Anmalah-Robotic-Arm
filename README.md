@@ -42,7 +42,6 @@ The system's firmware incorporates optimization techniques to stabilize motion a
 
 During laboratory stress-testing and joint calibration under active mechanical loads, the system reached a critical hardware bottleneck that capped initial deployment at an **80% operational milestone**.
 
-![Laboratory Calibration and Testing Work](lab_testing.jpeg)
 
 ###  The Problem: Stall Current & Voltage Drop
 When multiple MG996R servos initiate motion simultaneously under the torque load of the 3D printed arm, they pull transient **Stall Currents** reaching up to 1.2A - 1.5A per motor. 
